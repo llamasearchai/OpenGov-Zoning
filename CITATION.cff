@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "OpenGov Zoning"
+abstract: "A comprehensive FastAPI-based zoning and land use API for municipal governments, providing RESTful endpoints for zoning data, permit processing, and GIS integration."
+repository-code: "https://github.com/llamasearchai/OpenGov-Zoning"
+url: "https://llamasearchai.github.io/OpenGov-Zoning"
+license: MIT
+keywords:
+  - api
+  - fastapi
+  - gis
+  - infrastructure
+  - land-use
+  - municipal
+  - permitting
+  - zoning
+  - zoning-api
+authors:
+  - family-names: "LlamaSearch AI"
+    name-particle: ""
+    given-names: ""
+    orcid: ""
+    affiliation: "LlamaSearch AI"
+    email: "nikjois@llamasearch.ai"
+preferred-citation:
+  type: software
+  title: "OpenGov Zoning: A FastAPI-based Zoning and Land Use API"
+  authors:
+    - family-names: "LlamaSearch AI"
+      name-particle: ""
+      given-names: ""
+      orcid: ""
+      affiliation: "LlamaSearch AI"
+      email: "nikjois@llamasearch.ai"
+  repository-code: "https://github.com/llamasearchai/OpenGov-Zoning"
+  url: "https://llamasearchai.github.io/OpenGov-Zoning"
+  license: MIT
+  year: 2024
+  abstract: "OpenGov Zoning is a production-ready FastAPI application designed for municipal governments to manage zoning data, permit processing, and GIS integration. It provides a comprehensive REST API with clean architecture, robust testing, security features, and deployment automation."
+references:
+  - type: article
+    title: "FastAPI Documentation"
+    url: "https://fastapi.tiangolo.com/"
+  - type: article
+    title: "SQLAlchemy Documentation"
+    url: "https://docs.sqlalchemy.org/"
+  - type: article
+    title: "Pydantic Documentation"
+    url: "https://docs.pydantic.dev/"

@@ -1,0 +1,76 @@
+# Development requirements for OpenGov Zoning API
+# Generated with pip-tools for reproducible builds
+
+-e file:.
+    # via -r requirements.txt (line 1)
+
+aioredis==2.0.1
+    # via opengov-zoning (pyproject.toml)
+bandit==1.7.5
+    # via opengov-zoning (pyproject.toml)
+black==23.12.1
+    # via opengov-zoning (pyproject.toml)
+coverage[toml]==7.3.2
+    # via opengov-zoning (pyproject.toml)
+faker==20.1.0
+    # via opengov-zoning (pyproject.toml)
+flower==2.0.1
+    # via opengov-zoning (pyproject.toml)
+hypothesis==6.91.0
+    # via opengov-zoning (pyproject.toml)
+isort==5.13.2
+    # via opengov-zoning (pyproject.toml)
+locust==2.18.2
+    # via opengov-zoning (pyproject.toml)
+memory-profiler==0.61.0
+    # via opengov-zoning (pyproject.toml)
+mkdocs-autorefs==0.5.0
+    # via opengov-zoning (pyproject.toml)
+mkdocs-gen-files==0.5.0
+    # via opengov-zoning (pyproject.toml)
+mkdocs-literate-nav==0.6.1
+    # via opengov-zoning (pyproject.toml)
+mkdocs-material==9.4.8
+    # via opengov-zoning (pyproject.toml)
+mkdocs==1.5.3
+    # via opengov-zoning (pyproject.toml)
+mkdocstrings-python==1.7.5
+    # via opengov-zoning (pyproject.toml)
+mkdocstrings==0.24.0
+    # via opengov-zoning (pyproject.toml)
+mypy==1.7.1
+    # via opengov-zoning (pyproject.toml)
+pip-audit==2.6.2
+    # via opengov-zoning (pyproject.toml)
+pip-tools==7.3.0
+    # via opengov-zoning (pyproject.toml)
+pre-commit==3.6.0
+    # via opengov-zoning (pyproject.toml)
+pydocstyle==6.3.0
+    # via opengov-zoning (pyproject.toml)
+pytest-asyncio==0.21.1
+    # via opengov-zoning (pyproject.toml)
+pytest-benchmark==4.0.0
+    # via opengov-zoning (pyproject.toml)
+pytest-cov==4.1.0
+    # via opengov-zoning (pyproject.toml)
+pytest-html==4.1.1
+    # via opengov-zoning (pyproject.toml)
+pytest-mock==3.12.0
+    # via opengov-zoning (pyproject.toml)
+pytest-xdist==3.5.0
+    # via opengov-zoning (pyproject.toml)
+pytest==7.4.3
+    # via opengov-zoning (pyproject.toml)
+radon==6.0.1
+    # via opengov-zoning (pyproject.toml)
+ruff==0.1.6
+    # via opengov-zoning (pyproject.toml)
+safety==2.3.5
+    # via opengov-zoning (pyproject.toml)
+supervisor==4.2.5
+    # via opengov-zoning (pyproject.toml)
+testcontainers==3.7.1
+    # via opengov-zoning (pyproject.toml)
+tox==4.11.4
+    # via opengov-zoning (pyproject.toml)

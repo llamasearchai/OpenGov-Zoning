@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Issue
+    url: https://github.com/llamasearchai/OpenGov-Zoning/security
+    about: Report security vulnerabilities privately
+  - name: Documentation
+    url: https://llamasearchai.github.io/OpenGov-Zoning
+    about: View the project documentation
+  - name: Discussions
+    url: https://github.com/llamasearchai/OpenGov-Zoning/discussions
+    about: Ask questions and discuss ideas
+  - name: Support
+    url: mailto:nikjois@llamasearch.ai
+    about: Get support for using this project

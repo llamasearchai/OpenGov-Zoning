@@ -1,0 +1,56 @@
+# This file defines the code owners for this repository
+# Code owners will be automatically requested for review when a PR is opened
+# that modifies files they own
+
+# Global Owners
+* @llamasearchai
+
+# Core Application Code
+/src/ @llamasearchai
+
+# API Layer
+/src/opengovzoning/api/ @llamasearchai
+/src/opengovzoning/web/ @llamasearchai
+
+# Core Business Logic
+/src/opengovzoning/core/ @llamasearchai
+/src/opengovzoning/domain/ @llamasearchai
+/src/opengovzoning/services/ @llamasearchai
+
+# Infrastructure and Configuration
+/src/opengovzoning/infrastructure/ @llamasearchai
+/src/opengovzoning/core/config.py @llamasearchai
+/src/opengovzoning/core/database.py @llamasearchai
+
+# Security Related Files
+/src/opengovzoning/core/security/ @llamasearchai
+SECURITY.md @llamasearchai
+
+# Documentation
+README.md @llamasearchai
+CONTRIBUTING.md @llamasearchai
+docs/ @llamasearchai
+
+# CI/CD and GitHub Configuration
+.github/ @llamasearchai
+.github/workflows/ @llamasearchai
+
+# Docker and Infrastructure
+Dockerfile @llamasearchai
+docker-compose.yml @llamasearchai
+infrastructure/ @llamasearchai
+
+# Testing
+tests/ @llamasearchai
+
+# Scripts
+scripts/ @llamasearchai
+
+# Configuration Files
+pyproject.toml @llamasearchai
+.env.example @llamasearchai
+.pre-commit-config.yaml @llamasearchai
+
+# License and Legal
+LICENSE @llamasearchai
+CITATION.cff @llamasearchai

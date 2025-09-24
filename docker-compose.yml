@@ -1,0 +1,108 @@
+version: '3.8'
+
+services:
+  # Main application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=development
+      - DEBUG=true
+      - DATABASE_URL=sqlite+aiosqlite:///./data/opengov_zoning.db
+      - REDIS_URL=redis://redis:6379/0
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - ./src:/app/src
+      - ./migrations:/app/migrations
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - opengov-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Redis for caching and sessions
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - opengov-network
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+
+  # PostgreSQL database (optional, for production)
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=opengov_zoning
+      - POSTGRES_USER=opengov
+      - POSTGRES_PASSWORD=opengov_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - opengov-network
+    restart: unless-stopped
+
+  # Ollama for local LLM support
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - opengov-network
+    restart: unless-stopped
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+
+  # Datasette for data exploration
+  datasette:
+    image: datasetteproject/datasette:latest
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/data
+    networks:
+      - opengov-network
+    restart: unless-stopped
+    command: serve /data/opengov_zoning.db --host 0.0.0.0 --port 8001
+
+  # Flower for Celery monitoring
+  flower:
+    image: mher/flower:latest
+    ports:
+      - "5555:5555"
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    networks:
+      - opengov-network
+    restart: unless-stopped
+
+volumes:
+  redis_data:
+  postgres_data:
+  ollama_data:
+
+networks:
+  opengov-network:
+    driver: bridge
