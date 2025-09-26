@@ -8,7 +8,7 @@ aioredis==2.0.1
     # via opengov-zoning (pyproject.toml)
 bandit==1.7.5
     # via opengov-zoning (pyproject.toml)
-black==23.12.1
+black==25.9.0
     # via opengov-zoning (pyproject.toml)
 coverage[toml]==7.3.2
     # via opengov-zoning (pyproject.toml)
