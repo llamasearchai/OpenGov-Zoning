@@ -1,5 +1,7 @@
 # OpenGov-Zoning
 
+![OpenGov-Zoning Logo](OpenGov-Zoning.png)
+
 **Comprehensive land use planning and permitting intelligence system for infrastructure projects across US municipalities**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,6 +9,8 @@
 [![CI](https://github.com/llamasearchai/OpenGov-Zoning/actions/workflows/ci.yml/badge.svg)](https://github.com/llamasearchai/OpenGov-Zoning/actions/workflows/ci.yml)
 
 OpenGov Zoning is a production-grade Python system designed to analyze zoning documents and comprehensive plans for infrastructure development projects. The system integrates AI/ML capabilities with GIS data to provide permitting intelligence and regulatory analysis for renewable energy, data centers, and telecommunications infrastructure.
+
+Coverage: All 50 U.S. states and the District of Columbia.
 
 ## Key Features
 
@@ -308,6 +312,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
+- **Repository**: [OpenGov-Zoning on GitHub](https://github.com/llamasearchai/OpenGov-Zoning)
 - **Issues**: [GitHub Issues](https://github.com/llamasearchai/OpenGov-Zoning/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/llamasearchai/OpenGov-Zoning/discussions)
 - **Email**: nikjois@llamasearch.ai
