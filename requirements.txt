@@ -1,7 +1,7 @@
 # Production requirements for OpenGov Zoning API
 # Generated with pip-tools for reproducible builds
 
-aiofiles==23.2.1
+aiofiles==24.1.0
     # via opengov-zoning (pyproject.toml)
 fastapi==0.104.1
     # via opengov-zoning (pyproject.toml)
