@@ -378,7 +378,7 @@ def interactive_menu():
     """
     Launch interactive menu system.
     """
-    console.print(f"[bold blue]{repo_name} Interactive Menu[/bold blue]")
+    console.print("[bold blue]OpenGov Zoning Interactive Menu[/bold blue]")
     console.print("=" * 50)
 
     while True:
