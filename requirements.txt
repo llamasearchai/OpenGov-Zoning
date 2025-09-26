@@ -44,7 +44,7 @@ lxml==4.9.3
     # via opengov-zoning (pyproject.toml)
 markdown==3.5.1
     # via opengov-zoning (pyproject.toml)
-numpy==1.26.2
+numpy==2.3.3
     # via opengov-zoning (pyproject.toml)
 ollama==0.2.1
     # via opengov-zoning (pyproject.toml)
