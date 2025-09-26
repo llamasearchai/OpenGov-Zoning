@@ -90,7 +90,7 @@ requests==2.31.0
     # via opengov-zoning (pyproject.toml)
 rich==13.7.0
     # via opengov-zoning (pyproject.toml)
-sentry-sdk[fastapi]==1.38.0
+sentry-sdk[fastapi]==2.39.0
     # via opengov-zoning (pyproject.toml)
 shapely==2.0.2
     # via opengov-zoning (pyproject.toml)
