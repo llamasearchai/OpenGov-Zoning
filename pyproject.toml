@@ -9,7 +9,7 @@ description = "Production-ready FastAPI application for comprehensive land use p
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Nik Jois", email = "nikjois@llamasearch.ai"}
+    {name = "Nik Jois"}
 ]
 keywords = ["zoning", "land-use", "permitting", "gis", "municipal", "infrastructure", "fastapi", "api", "zoning-api"]
 classifiers = [

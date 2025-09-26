@@ -319,4 +319,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with care for infrastructure development by Nik Jois <nikjois@llamasearch.ai>**
+**Built with care for infrastructure development by Nik Jois**
