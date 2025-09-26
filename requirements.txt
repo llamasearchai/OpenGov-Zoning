@@ -88,7 +88,7 @@ redis[hiredis]==5.0.1
     # via opengov-zoning (pyproject.toml)
 requests==2.31.0
     # via opengov-zoning (pyproject.toml)
-rich==13.7.0
+rich==14.1.0
     # via opengov-zoning (pyproject.toml)
 sentry-sdk[fastapi]==1.38.0
     # via opengov-zoning (pyproject.toml)
