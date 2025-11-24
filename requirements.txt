@@ -3,76 +3,76 @@
 
 aiofiles==23.2.1
     # via opengov-zoning (pyproject.toml)
-fastapi==0.104.1
+fastapi==0.121.3
     # via opengov-zoning (pyproject.toml)
     # via opengov-zoning (pyproject.toml)
-aiohttp==3.9.1
+aiohttp==3.13.2
     # via opengov-zoning (pyproject.toml)
-aiosqlite==0.19.0
+aiosqlite==0.21.0
     # via opengov-zoning (pyproject.toml)
-alembic==1.12.1
+alembic==1.17.2
     # via opengov-zoning (pyproject.toml)
-asyncpg==0.29.0
+asyncpg==0.30.0
     # via opengov-zoning (pyproject.toml)
 bcrypt==4.1.2
     # via opengov-zoning (pyproject.toml)
-beautifulsoup4==4.12.2
+beautifulsoup4==4.14.2
     # via opengov-zoning (pyproject.toml)
-brotli==1.1.0
+brotli==1.2.0
     # via opengov-zoning (pyproject.toml)
-celery==5.3.4
+celery==5.5.3
     # via opengov-zoning (pyproject.toml)
-click==8.1.7
+click==8.3.1
     # via opengov-zoning (pyproject.toml)
-fiona==1.9.5
+fiona==1.10.1
     # via opengov-zoning (pyproject.toml)
-folium==0.15.1
+folium==0.20.0
     # via opengov-zoning (pyproject.toml)
 geopandas==0.14.1
     # via opengov-zoning (pyproject.toml)
-httpx==0.25.2
+httpx==0.28.1
     # via opengov-zoning (pyproject.toml)
 jinja2==3.1.2
     # via opengov-zoning (pyproject.toml)
-llm-cmd==0.1a0
+llm-cmd==0.2a0
     # via opengov-zoning (pyproject.toml)
-llm-ollama==0.1.0
+llm-ollama==0.15.1
     # via opengov-zoning (pyproject.toml)
-llm==0.15
+llm==0.27.1
     # via opengov-zoning (pyproject.toml)
 lxml==4.9.3
     # via opengov-zoning (pyproject.toml)
-markdown==3.5.1
+markdown==3.10
     # via opengov-zoning (pyproject.toml)
 numpy==1.26.2
     # via opengov-zoning (pyproject.toml)
-ollama==0.2.1
+ollama==0.6.1
     # via opengov-zoning (pyproject.toml)
 openai==1.3.7
     # via opengov-zoning (pyproject.toml)
-opentelemetry-api==1.21.0
+opentelemetry-api==1.38.0
     # via opengov-zoning (pyproject.toml)
-opentelemetry-instrumentation-fastapi==0.42b0
+opentelemetry-instrumentation-fastapi==0.59b0
     # via opengov-zoning (pyproject.toml)
-opentelemetry-sdk==1.21.0
+opentelemetry-sdk==1.38.0
     # via opengov-zoning (pyproject.toml)
-pandas==2.1.4
+pandas==2.3.3
     # via opengov-zoning (pyproject.toml)
 passlib[bcrypt]==1.7.4
     # via opengov-zoning (pyproject.toml)
-prometheus-client==0.19.0
+prometheus-client==0.23.1
     # via opengov-zoning (pyproject.toml)
 pyopenssl==23.3.0
     # via opengov-zoning (pyproject.toml)
 pypdf2==3.0.1
     # via opengov-zoning (pyproject.toml)
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via opengov-zoning (pyproject.toml)
-python-docx==1.1.0
+python-docx==1.2.0
     # via opengov-zoning (pyproject.toml)
-python-dotenv==1.0.0
+python-dotenv==1.2.1
     # via opengov-zoning (pyproject.toml)
-python-jose[cryptography]==3.3.0
+python-jose[cryptography]==3.5.0
     # via opengov-zoning (pyproject.toml)
 python-multipart==0.0.6
     # via opengov-zoning (pyproject.toml)
@@ -80,19 +80,19 @@ pytz==2023.3.post1
     # via opengov-zoning (pyproject.toml)
 pyyaml==6.0.1
     # via opengov-zoning (pyproject.toml)
-questionary==2.0.1
+questionary==2.1.1
     # via opengov-zoning (pyproject.toml)
-rasterio==1.3.9
+rasterio==1.4.3
     # via opengov-zoning (pyproject.toml)
 redis[hiredis]==5.0.1
     # via opengov-zoning (pyproject.toml)
-requests==2.31.0
+requests==2.32.5
     # via opengov-zoning (pyproject.toml)
 rich==13.7.0
     # via opengov-zoning (pyproject.toml)
 sentry-sdk[fastapi]==1.38.0
     # via opengov-zoning (pyproject.toml)
-shapely==2.0.2
+shapely==2.1.2
     # via opengov-zoning (pyproject.toml)
 slowapi==0.1.9
     # via opengov-zoning (pyproject.toml)
@@ -104,11 +104,11 @@ tenacity==8.2.3
     # via opengov-zoning (pyproject.toml)
 toml==0.10.2
     # via opengov-zoning (pyproject.toml)
-typer==0.12.5
+typer==0.20.0
     # via opengov-zoning (pyproject.toml)
-uvicorn[standard]==0.24.0
+uvicorn[standard]==0.38.0
     # via opengov-zoning (pyproject.toml)
-uvloop==0.19.0
+uvloop==0.22.1
     # via opengov-zoning (pyproject.toml)
-zstandard==0.22.0
+zstandard==0.25.0
     # via opengov-zoning (pyproject.toml)
